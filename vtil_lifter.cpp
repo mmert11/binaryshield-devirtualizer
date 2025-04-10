@@ -306,8 +306,8 @@ void vtil_lifter::lift()
 void vm_lifter::liftToVTIL()
 {
 	vtil_->lift();
-	//vtil::optimizer::apply_all(vtil_->rtn);
-	//vtil::debug::dump(vtil_->rtn);
+	vtil::optimizer::apply_all(vtil_->rtn);
+	vtil::debug::dump(vtil_->rtn);
 	vtil::save_routine(vtil_->rtn, "output.vtil");
 }
 
