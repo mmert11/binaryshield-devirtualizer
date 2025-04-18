@@ -6,6 +6,8 @@ This VM has no mutation or extra obfuscation in it. It can be analyzed without r
 
 I wanted to go further than just obtaining the flags. My goal was to push my skills, learn deobfuscation/devirtualization techniques better and compare LLVM and VTIL to see which one is better for the job.
 
+Article : https://medium.com/@mmert_11/devirtualizing-a-vm-based-protection-with-llvm-a8b5ef9634b5
+
 ## Technologies Used
 
 - **LLVM** for lifting and analysis  
